@@ -1,0 +1,40 @@
+{{ define "head" }}
+	{{ if .Site.Params.bgImg -}}
+	<style>.bg-img {background-image: url('{{.Site.Params.bgImg}}');}</style>
+	{{- else if .Site.Params.images -}}
+		{{- range first 1 .Site.Params.images -}}
+		<style>.bg-img {background-image: url('{{. | absURL}}');}</style>
+		{{- end -}}
+	{{- end -}}
+{{ end }}
+
+{{ define "main" }}
+	{{- if (or .Site.Params.images .Site.Params.bgImg) }}
+	<div class="bg-img"></div>
+	{{- end }}
+	<div id="spotlight" class="animated fadeIn">
+		<div id="home-center">  
+			
+			<div><svg width="20%" height="20%" viewBox="0 0 608 608" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><path d="M304,0c167.782,0 304,136.218 304,304c0,167.782 -136.218,304 -304,304c-167.782,0 -304,-136.218 -304,-304c0,-167.782 136.218,-304 304,-304Zm163.384,541.2c-35.68,24.637 -77.475,41.557 -123.302,47.997c-45.55,6.402 -90.124,1.753 -131.009,-11.9c0,0 -16.184,-205.663 0.471,-220.553c20.186,-18.047 253.84,184.456 253.84,184.456Zm-361.474,-446.216c9.24,29.257 47.92,154.032 57.526,222.384c9.306,66.215 7.873,201.622 7.208,241.864c-79.46,-41.624 -138.416,-119.627 -151.841,-215.15c-13.456,-95.745 21.91,-187.178 87.107,-249.098Zm343.778,-39.368c73.188,43.008 126.789,117.79 139.509,208.302c12.745,90.684 -18.308,177.501 -77.022,239.037c-38.845,-23.774 -208.58,-131.192 -217.344,-198.117c-8.755,-66.859 124.029,-215.693 154.857,-249.222Zm-309.089,11.195c35.684,-24.642 77.485,-41.567 123.319,-48.008c49.509,-6.958 97.866,-0.862 141.585,15.663c0,0 -181.474,227.008 -205.353,224.197c-17.318,-2.039 -59.551,-191.852 -59.551,-191.852Z" style="fill:#fff;"/></svg></div>
+
+			<h1 id="home-title">{{ .Site.Title }}</h1>
+						
+			{{- with .Site.Params.homeSubtitle}}
+			<p id="home-subtitle">{{.}} Sound Designer & Software Developer</p>
+			{{- end }}
+
+			{{- with .Site.Params.social }}
+			<div id="home-social">
+				{{ partialCached "social-icons.html" . }}
+			</div>
+			{{- end }}
+			<nav id="home-nav" class="site-nav">
+				{{ partialCached "menu.html" . }}
+			</nav>
+		</div>
+		<div id="home-footer">
+			<p>
+				&copy; {{ now.Format "2006" }} <a href="{{ .Site.BaseURL }}">{{ .Site.Author.name }}</a></p>
+		</div>
+	</div>
+{{ end }}
