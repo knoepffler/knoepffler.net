@@ -589,16 +589,6 @@ Durch den Aufruf von Seiten die solche Funktionen nutzen werden Daten (IP-Adress
 
 Die Datenschutzrichtlinien, welche Informationen Pinterest sammelt und wie sie diese verwenden finden Sie auf https://policy.pinterest.com/de/privacy-policy.
 
-XING Datenschutzerklärung
-
-Wir verwenden auf unserer Webseite Funktionen des Social Media Netzwerks XING der Firma XING SE, Dammtorstraße 30, 20354 Hamburg, Deutschland.
-
-Durch den Aufruf von Seiten die solche Funktionen nutzen werden Daten (IP-Adresse, Browserdaten, Datum und Zeitpunkt, Cookies) an XING übermittelt, gespeichert und ausgewertet.
-
-Sollten Sie ein XING-Konto haben und angemeldet sein, werden diese Daten Ihrem persönlichen Konto und den darin gespeicherten Daten zugeordnet.
-
-Die Datenschutzrichtlinien, welche Informationen XING sammelt und wie sie diese verwenden finden Sie auf https://www.xing.com/privacy.
-
 SoundCloud Datenschutzerklärung
 
 Wir verwenden auf unserer Webseite Funktionen des Social Media Netzwerks SoundCloud der Firma SoundCloud Limited, Rheinsberger Str. 76/77, 10115 Berlin, Deutschland.
