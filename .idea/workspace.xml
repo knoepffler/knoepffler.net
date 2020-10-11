@@ -19,11 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf3ed598-7ef3-4106-88b9-6b0a4d0b0006" name="Default Changelist" comment="update imprint (removed xing)" />
+    <list default="true" id="cf3ed598-7ef3-4106-88b9-6b0a4d0b0006" name="Default Changelist" comment="update imprint (removed xing)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knet_websites.code-workspace" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,6 +59,8 @@
       <workItem from="1598511460844" duration="5000" />
       <workItem from="1598527013816" duration="31000" />
       <workItem from="1598593835020" duration="923000" />
+      <workItem from="1598598005361" duration="2000" />
+      <workItem from="1599055162596" duration="327000" />
     </task>
     <task id="LOCAL-00001" summary="set animation-time for fade-in to 10s">
       <created>1598594682197</created>
