@@ -73,13 +73,13 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     name = "twitter"
     url = "https://twitter.com/KnoepfflerNet"
 
-  [[params.social]]
-    name = "facebook"
-    url = "https://www.facebook.com/knoepffler.net"
+  #[[params.social]]
+  #  name = "facebook"
+  # url = "https://www.facebook.com/knoepffler.net"
 
-  [[params.social]]
-    name = "instagram"
-    url = "https://www.instagram.com/friend_of_cooper/"
+  #[[params.social]]
+  #  name = "instagram"
+  #  url = "https://www.instagram.com/friend_of_cooper/"
   
   [[params.social]]
     name = "email"
