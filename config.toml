@@ -87,17 +87,17 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
 [menu]
 
-  [[menu.main]]
-    name = "Lab"
-    url = "https://lab.knoepffler.net"
-    weight = 10
+#  [[menu.main]]
+#    name = "Lab"
+#    url = "https://lab.knoepffler.net"
+#    weight = 10
 
-  [[menu.main]]
-    name = "Audio"
-    url = "https://audio.knoepffler.net"
-    weight = 20
+# [[menu.main]]
+#    name = "Audio"
+#    url = "https://audio.knoepffler.net"
+#    weight = 20
 
-  [[menu.main]]
-    name = "Imprint"
-    url = "imprint/"
-    weight = 30
+#  [[menu.main]]
+#    name = "Imprint"
+#    url = "imprint/"
+#    weight = 30
