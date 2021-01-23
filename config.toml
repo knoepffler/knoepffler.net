@@ -67,7 +67,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
   [[params.social]]
     name = "soundcloud"
-    url = "https://soundcloud.com/knoepffler"
+    url = "https://soundcloud.com/friendofcooper"
 
   #[[params.social]]
   #  name = "twitter"
