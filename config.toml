@@ -38,7 +38,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   themeColor = "#494f5c"
 
   homeAuthorName = "Stephan Knoepffler"
-  homeSubtitle = "Stephan Knoepffler"
+  homeSubtitle = ""
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   # bgImg = ""  # Homepage background-image URL
 
@@ -65,9 +65,9 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     name = "stackoverflow"
     url = "https://stackoverflow.com/users/13241232/knoepffler-net"
 
-  [[params.social]]
-    name = "soundcloud"
-    url = "https://soundcloud.com/friendofcooper"
+  #[[params.social]]
+  #  name = "soundcloud"
+  #  url = "https://soundcloud.com/friendofcooper"
 
   #[[params.social]]
   #  name = "twitter"
